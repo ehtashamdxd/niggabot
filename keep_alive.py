@@ -8,7 +8,7 @@ def index():
     return "I'm Gay!"
 
 def run():
-  app.run(host='0.0.0.0',port=8080)
+  app.run(host='195.200.15.246',port=8080)
 
 def keep_alive():  
     t = Thread(target=run)
